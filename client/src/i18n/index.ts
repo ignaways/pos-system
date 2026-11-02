@@ -13,9 +13,9 @@ function initialLocale(): Locale {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved === "en" || saved === "id") return saved;
   } catch {
-    // storage blocked: fall through to the browser language
+    // storage blocked: fall through to the default
   }
-  return navigator.language?.toLowerCase().startsWith("id") ? "id" : "en";
+  return "en";
 }
 
 export const localeStore = createStore<Locale, Locale>((_state, next) => next, initialLocale());
