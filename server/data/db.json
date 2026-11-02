@@ -1,0 +1,208 @@
+{
+  "categories": [
+    {
+      "id": "cat-coffee",
+      "name": "Coffee"
+    },
+    {
+      "id": "cat-noncoffee",
+      "name": "Tea & non-coffee"
+    },
+    {
+      "id": "cat-bakery",
+      "name": "Bakery"
+    },
+    {
+      "id": "cat-beans",
+      "name": "Beans & retail"
+    }
+  ],
+  "products": [
+    {
+      "sku": "CF-ESP",
+      "name": "Espresso",
+      "categoryId": "cat-coffee",
+      "price": 18000,
+      "stock": 120,
+      "id": "prd-cf-esp",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "CF-AMR",
+      "name": "Americano",
+      "categoryId": "cat-coffee",
+      "price": 22000,
+      "stock": 120,
+      "id": "prd-cf-amr",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "CF-LAT",
+      "name": "Caffe latte",
+      "categoryId": "cat-coffee",
+      "price": 28000,
+      "stock": 88,
+      "id": "prd-cf-lat",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:46:38.176Z"
+    },
+    {
+      "sku": "CF-KSS",
+      "name": "Kopi susu gula aren",
+      "categoryId": "cat-coffee",
+      "price": 25000,
+      "stock": 150,
+      "id": "prd-cf-kss",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "CF-CAP",
+      "name": "Cappuccino",
+      "categoryId": "cat-coffee",
+      "price": 28000,
+      "stock": 80,
+      "id": "prd-cf-cap",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "CF-V60",
+      "name": "V60 pour-over",
+      "categoryId": "cat-coffee",
+      "price": 32000,
+      "stock": 40,
+      "id": "prd-cf-v60",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "NC-MAT",
+      "name": "Matcha latte",
+      "categoryId": "cat-noncoffee",
+      "price": 30000,
+      "stock": 60,
+      "id": "prd-nc-mat",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "NC-TEH",
+      "name": "Teh tarik",
+      "categoryId": "cat-noncoffee",
+      "price": 20000,
+      "stock": 70,
+      "id": "prd-nc-teh",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "NC-CHO",
+      "name": "Hot chocolate",
+      "categoryId": "cat-noncoffee",
+      "price": 27000,
+      "stock": 4,
+      "id": "prd-nc-cho",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "BK-CRO",
+      "name": "Butter croissant",
+      "categoryId": "cat-bakery",
+      "price": 24000,
+      "stock": 18,
+      "id": "prd-bk-cro",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "BK-PAC",
+      "name": "Pain au chocolat",
+      "categoryId": "cat-bakery",
+      "price": 27000,
+      "stock": 12,
+      "id": "prd-bk-pac",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "BK-BAN",
+      "name": "Banana bread",
+      "categoryId": "cat-bakery",
+      "price": 21000,
+      "stock": 3,
+      "id": "prd-bk-ban",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "BK-KLP",
+      "name": "Klepon cake slice",
+      "categoryId": "cat-bakery",
+      "price": 26000,
+      "stock": 0,
+      "id": "prd-bk-klp",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "RT-GYO",
+      "name": "Gayo beans 250 g",
+      "categoryId": "cat-beans",
+      "price": 95000,
+      "stock": 15,
+      "id": "prd-rt-gyo",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "RT-TRJ",
+      "name": "Toraja beans 250 g",
+      "categoryId": "cat-beans",
+      "price": 105000,
+      "stock": 9,
+      "id": "prd-rt-trj",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    },
+    {
+      "sku": "RT-FLT",
+      "name": "V60 paper filters",
+      "categoryId": "cat-beans",
+      "price": 45000,
+      "stock": 22,
+      "id": "prd-rt-flt",
+      "lowStockThreshold": 5,
+      "updatedAt": "2026-10-01T09:42:31.024Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "f885c3cd-7aa6-4451-83e5-3fbff6cb5e2c",
+      "number": "S-00001",
+      "createdAt": "2026-10-01T09:46:38.176Z",
+      "lines": [
+        {
+          "productId": "prd-cf-lat",
+          "sku": "CF-LAT",
+          "name": "Caffe latte",
+          "unitPrice": 28000,
+          "qty": 2,
+          "lineTotal": 56000
+        }
+      ],
+      "subtotal": 56000,
+      "discountAmount": 0,
+      "tax": 6160,
+      "total": 62160,
+      "discountPercent": 0,
+      "paid": 62160,
+      "change": 0,
+      "paymentMethod": "qris"
+    }
+  ],
+  "saleCounter": 1
+}

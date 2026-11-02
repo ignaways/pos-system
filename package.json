@@ -1,0 +1,27 @@
+{
+  "name": "pos-system",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Point-of-sale and back-office management system built with React, TypeScript and Node.",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"npm:dev -w server\" \"npm:dev -w client\"",
+    "build": "npm run build -w client && npm run build -w server",
+    "start": "npm run start -w server",
+    "db:setup": "npm run db:setup -w server",
+    "db:reset": "npm run db:reset -w server",
+    "test": "npm run test -w client && npm run test -w server",
+    "typecheck": "npm run typecheck -w client && npm run typecheck -w server && tsc -p api/tsconfig.json"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "typescript": "^5.7.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  }
+}
